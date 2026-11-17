@@ -1,0 +1,11 @@
+TIENDA KV GROUP
+
+A) PUBLICAR EN GITHUB (tienda online gratuita)
+1. Creá un repositorio en GitHub y subí TODO el contenido de esta carpeta (incluida .github).
+2. En GitHub: Settings > Pages > Source: "GitHub Actions".
+3. Actions > "Publicar tienda" > Run workflow. En 2-3 minutos queda publicada y trae sola las fotos, precios y descripciones del catálogo (se actualiza todos los días).
+En este modo (GitHub Pages) los pedidos llegan por WhatsApp: cargá tu número en public/config.json ("whatsapp":"5493410000000"). Ahí también se cambian descuentos, cuotas, carteles de stock y cupones. Los productos propios (protectores solares, naturales) se agregan a public/catalog.json.
+
+B) TIENDA COMPLETA CON PANEL (pedidos, stock y admin)
+Necesita un servidor con Node.js 18+ (por ejemplo Render o un VPS): node server.js. En tu PC: instalá Node.js y abrí INICIAR.bat (INICIAR.sh en Mac/Linux). Panel en /admin; la clave inicial se imprime la primera vez.
+Desde el panel: productos, fotos, carteles (sin stock / últimas unidades), cuotas, cupones, pedidos y estados.
